@@ -1,0 +1,94 @@
+:root {
+   --primary: rgb(56, 56, 56);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar .btn {
+    padding: .625rem 1.25rem !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.content {
+    max-width:500px;
+}
+.spacing {
+    padding: 5px;
+}
+
+.imagen {
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat( 15, 50px)
+}
+
+.hijo1{
+    grid-row: 1/15 ;
+    grid-column: 3/30;
+}
+
+.hijo2{
+    grid-row: 1/15 ;
+    grid-column: 16/26;  
+}
+
+.step {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.step {
+    content: '';
+    border-right: 1px solid var(--dark);
+    height: 60px;
+    position: absolute;
+    top: 34px;
+    opacity: .2;
+}
+
+#footer {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+}
+
+#pie {
+    background: rgb(29, 29, 29);
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    color: blanchedalmond;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
